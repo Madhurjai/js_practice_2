@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <input type="number" name="" id="hour" />
+        <div class="select">
+          <input type="radio" name="convert" id="hour_min" value="60" />
+          <label for="hour_min">hours to min</label>
+        </div>
+        <div class="select">
+          <input type="radio" name="convert" id="hour_sec" value="3600" />
+          <label for="hour_sec">hours to sec</label>
+        </div>
+        <input type="button" value="converter" onclick="myfunc()" class="button"/>
+      </form>
+
+      <p>second = <span id = "demo"></span></p>
+    </div>
+    <script src="index.js">
+    </script>
+  </body>
+</html>
